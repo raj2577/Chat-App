@@ -1,0 +1,46 @@
+.signout {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px;
+}
+.signout :hover {
+  border: 2px solid orange;
+  border-radius: 30px;
+}
+.signout img {
+  width: 20px;
+  filter: invert(1);
+  position: relative;
+  top: 4px;
+}
+.room {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+input {
+  border-radius: 20px;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.items {
+  display: flex;
+}
+.items button {
+  background-color: transparent;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 0px 10px;
+}
+.items button:hover {
+  border: 2px solid orange;
+  border-radius: 30px;
+}

@@ -1,0 +1,25 @@
+.auth {
+  display: flex;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  place-items: center;
+  flex-direction: column;
+  margin: 40vh 0px;
+  font-size: 20px;
+}
+
+.auth button {
+  background-color: black;
+  padding: 20px 25px;
+  border: white solid 2px;
+  border-radius: 50px;
+  margin: 10px;
+}
+.auth button:hover {
+  border: 2px solid orange;
+  scale: 1.1;
+}
+.auth img {
+  width: 30px;
+  /* margin: 10px; */
+}
